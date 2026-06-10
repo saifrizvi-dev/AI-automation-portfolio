@@ -13,6 +13,9 @@ Form-based workflow that takes a customer email, generates a professional AI rep
 ### 3. Google Sheets AI Response System
 Reads customer queries from Google Sheets, generates AI responses using Ollama, and writes them back to the sheet automatically.
 
+### 4. AI Lead Capture System
+Form captures lead's name, email and business problem → Ollama AI generates a personalised response → email sent automatically to the lead.
+
 ## Stack
 - n8n (workflow automation)
 - Ollama + llama3.2 (local AI)
