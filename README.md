@@ -16,8 +16,14 @@ Reads customer queries from Google Sheets, generates AI responses using Ollama, 
 ### 4. AI Lead Capture System
 Form captures lead's name, email and business problem → Ollama AI generates a personalised response → email sent automatically to the lead.
 
+### 5. WhatsApp FAQ Support Assistant
+
+AI-powered WhatsApp bot for a Clothing Brand automatically answers customer questions (sizing, shipping, fabric care, payment) by matching them against a live FAQ knowledge base using GPT-4o-mini, with built-in deduplication to prevent repeat replies.
+
 ## Stack
 - n8n (workflow automation)
 - Ollama + llama3.2 (local AI)
 - Google Sheets API
+- Meta Whatsapp Cloud API
+- OpenAI GPT-4o-mini
 - SMTP Email
